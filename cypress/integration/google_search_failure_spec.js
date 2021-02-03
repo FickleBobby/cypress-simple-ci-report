@@ -6,8 +6,8 @@ describe('Google fail search', () => {
 
     it('Search for something strange', () => {
         cy.get('[name="q"]')
-        .type('anqqaxc a57k2..')
-        .should('have.value', 'anqqaxc a57k2..')
+        .type('anqqaxc a57kASASAS2..')
+        .should('have.value', 'anqqaxc a57kASASAS2..')
         .type('{enter}')
     })
 
