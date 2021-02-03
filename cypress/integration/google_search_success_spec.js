@@ -1,7 +1,7 @@
 describe('Google success search', () => {
     
-    it('Successfully loads Google.com', () => {
-        cy.visit('https://www.google.com') 
+    it('Successfully loads Google.co.uk', () => {
+        cy.visit('https://www.google.co.uk') 
     })
 
     it('Search for a video', () => {
