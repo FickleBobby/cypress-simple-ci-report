@@ -22,8 +22,7 @@ jobs:
           $(npm bin)/cypress cache path
           $(npm bin)/cypress cache list
           $(npm bin)/cypress verify
-          echo $folder_path
-          echo $GITHUB_RUN_NUMBER
+          echo ${{ env.folder_path }}
       
       - name: Run Cypress tests
         run: npm run test:chrome
